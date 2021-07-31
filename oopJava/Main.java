@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main {
 
     //static attributes
-    static int k = 5; //variable legth of array vivlia (k <= 10)
+    static int k = 0; //variable legth of array vivlia (k <= 10)
     static boolean isSortISBN = false; //logic variable to check if array is sorted respect to isbn or publish year
     static boolean isSortEtEkd = false;
     //constant
@@ -31,13 +31,13 @@ public class Main {
         /* 
         *
         random initialize
-        */
+        *
         vivlia[0] = new Science("Engineer", "Microelectronics", "Konstantinos Hatzopoulos", "9781572580145", "Tziola", 1001, 2002, 110.5);
         vivlia[1] = new Science("Physics", "Quantum Mechanics 2", "Tai Hunduminda", "9780385737951", "Hindi-English Publishers", 910, 2008, 90.2);
         vivlia[2] = new Dictionary(10000, "English-Greek Language", "Matthew McChristopher", "9783453401372", "Iakinthos", 1000, 2007, 70.9);
         vivlia[3] = new Dictionary(1000, "Spanish-Greek Dictionary", "Sandy Cazorlia", "9780155658110", "Santa Publizer", 100, 1992, 20);
         vivlia[4] = new Science("Mathematics", "Linear Algebra & Complex Numbers", "Panagiotis Henry", "9781292061429", "Pythagoras", 820, 2000, 75.5);
-        /*
+        *
         *
         *
         *
